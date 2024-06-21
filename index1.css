@@ -1,0 +1,11 @@
+/* #parent{
+    #child{ */
+        #grandchild1 {
+            color: yellow;
+        }
+        #grandchild2 {
+            color: rgb(214, 100, 119)
+        }
+    /* }
+} */
+
