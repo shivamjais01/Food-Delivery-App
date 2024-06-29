@@ -1,0 +1,151 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border:3px solid black;
+    background-color: orange;
+}
+.logo{
+    width: 200px;
+    padding-left: 20px;
+    background-color: rgb(185, 149, 82);
+}
+.navitems{
+    padding:20px;
+    justify-content: space-evenly;
+}
+.id{
+    justify-content: space-evenly;
+}
+.navitems > ul{
+    display: flex;
+    list-style-type: none;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    
+}
+.navitems>ul>li{
+    padding: 0px;
+    margin-right: 20px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding-right: 5px;
+    border-right: 2px solid black;
+
+}
+
+.ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+.ul>li{
+    padding: 10px;
+    margin: 20px;
+}
+.h3{
+    margin: 10px;
+    margin-left: 12px;
+    padding-left: 8px;
+    width: 100px;
+    height:25px;
+    background-color:rgb(255, 246, 165);
+    border:2px solid black;
+    
+}
+.h3:hover{
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: burlywood;
+}
+.id>li:hover{
+    cursor: pointer;
+    border:1px solid black;
+    background-color: aliceblue;
+}
+.img{
+    width:100%;
+}
+.f1{
+    display: flex;
+    justify-content:flex-end;
+    border:3px solid black;
+    background-color: cornflowerblue;
+    padding :20px;
+    margin: 20px;
+    list-style-type: none;
+}
+.f1>li{
+    margin-left: 20px;
+    padding-right:7px;
+    border-right: 2px solid black;
+}
+.thanks{
+    margin-left:20px;
+    margin-right:20px;
+    text-align: center;
+    background-color:rgb(255, 246, 165);
+    border:2px solid black;
+}
+.f1>li:hover{
+    border:2px solid black;
+    background-color:aliceblue;
+    cursor:pointer;
+}
+.li1{
+    width :240px;
+    margin:20px;
+    background-color:bisque;
+}
+.li1:hover{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.resturantlist{
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter-rat{
+    margin-left:12px;
+}
+.filter-rat:hover{
+    cursor: pointer;
+}
+.shimmerul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type:none;
+}
+.shimmerul>li{
+    
+    width:240px;
+    margin:20px;
+    background-color:bisque;
+    height:300px
+
+}
+.login{
+    background-color: orange;
+}
+.login:hover{
+    border:2px solid aliceblue;
+    cursor:pointer;
+}
+.search{
+    margin-left: 10px;
+    margin:10px;
+}
+.button:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+.filter-rat:hover{
+    border: 2px solid black;
+    cursor: pointer;
+}
+.searchbar{
+    justify-content: space-between;
+}
