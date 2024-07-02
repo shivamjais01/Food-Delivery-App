@@ -29,12 +29,12 @@ if(res.length==0){
     return(
     <div className="mainbody">
         <div className="searchbar"> 
-            <input type="text" className="search" value1={search} onChange={(e)=>{
-                setsearch(e.target.value1);
+            <input type="text" className="search" value={search} onChange={(e)=>{
+                setsearch(e.target.value);
             }}/>
             <button className ="button"onClick={()=>{
                         const res2 = res.filter(
-                        (a)=>a.info.name.toLowerCase().includes(search.toLowerCase()));
+                        (a)=>a.info.name.toLowerCase().includes(search.toLowerCase()))
                         setfiltered(res2);
                         
             }}
@@ -52,7 +52,7 @@ if(res.length==0){
             {
                filtered.map(a=>
                  <Restcard key={a.info.id}resturant={a}/>)
-            };
+            }
             {/* we cant use index as a key */}
               
             
